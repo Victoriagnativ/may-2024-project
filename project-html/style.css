@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.first{
+    height: 908px;
+    background-image: url("img/background.png");
+    background-size: cover;
+}
+.container{
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 573px;
+    padding-top: 60px;
+
+}
+header>ul{
+    display: flex;
+    gap: 35px;
+}
+header>ul>li{
+  list-style-type: none;
+}
+header>ul>li>a{
+    text-decoration: none;
+    color: #CDCDCD;
+    font-family: 'Arial', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+header>ul>li>a:hover{
+    color: rgba(250, 250, 250, 1);
+    border-bottom: 3px solid rgba(241, 205, 179, 1);
+}
+.logo p:nth-of-type(1){
+    color:#F1CDB3;
+    font-family: "Noto Sans Georgian", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 110%;
+    letter-spacing: 1.92px;
+    margin-bottom: 10px;
+}
+.logo p:nth-of-type(2){
+    color: #FFF;
+    font-family: 'Arial', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1.3px;
+}
+.first-main{
+    height: 673px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 42px;
+    margin-top: 60px;
+
+}
+.first-main img{
+    width: 698px;
+    height: 728px;
+    flex-shrink: 0;
+    overflow:hidden ;
+
+}
+.content{
+    display: flex;
+    width: 460px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 42px;
+    margin-top: 163px;
+
+}
+.content button{
+    width: 207px;
+    height: 52px;
+    border-radius: 100px;
+    background: #F1CDB3;
+    color:#292929;
+    font-family: "Noto Sans Georgian", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 1.02px;
+    border: none;
+}
+.content h2{
+    width: 350px;
+    color: #FFF;
+    font-family: "Noto Sans Georgian", sans-serif;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 130%;
+}
+.content p{
+    color:#CDCDCD;
+    font-family: 'Arial', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+.second{
+    background: #FFF;
+
+}
+.second-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:120px ;
+    padding: 80px 40px 100px 40px;
+}
+.second-content{
+    width: 430px;
+    /*height: 380px;*/
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap:25px ;
+
+}
+.second-content h3{
+    color: #545454;
+    font-family: "Noto Sans Georgian", sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 2.1px;
+}
+.second-content p:nth-of-type(1){
+    color: #4C4C4C;
+    font-family: 'Arial', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 160%;
+}
+.second-content p:nth-of-type(2){
+    color: #4C4C4C;
+    font-family: 'Arial', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 160%;
+}
+.second-wrap img{
+    width: 300px;
+    height: 408px;
+    flex-shrink: 0;
+}
+.third{
+    background: #F6F6F6;
+}
+.third-wrap{
+    padding: 80px 40px 100px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+}
+.third .container h2{
+    width: 400px;
+    text-align: center;
+    color: #545454;
+    font-family: "Noto Sans Georgian", sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 2.1px;
+
+}
+.third-box{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    gap: 90px;
+}
+.card{
+    display: flex;
+    width: 270px;
+    height: 435px;
+    padding-bottom: 30px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    flex-shrink: 0;
+    border-radius: 9px;
+    background: #FAFAFA;
+}
+.card img{
+    width: 270px;
+    height: 270px;
+    flex-shrink: 0;
+    border-radius: 9px 9px 0 0;
+
+}
+.card p{
+    color: #545454;
+    text-align: center;
+    font-family: "Noto Sans Georgian", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+}
+.card button{
+    width: 187px;
+    height: 52px;
+    border-radius: 100px;
+    border: 2px solid  #F1CDB3;
+    background: #FAFAFA;
+
+}
+.btn{
+    width: 261px;
+    height:52px;
+    border-radius: 100px;
+    background:  #F1CDB3;
+    color: #292929;
+    font-family: "Noto Sans Georgian", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 1.02px;
+    border: none;
+}
+.four{
+    background-color:#FFF;
+    /*height: 877px;*/
+}
+.four-wrap{
+    padding: 80px 40px 100px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+
+}
+.four-item{
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 127px;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+    gap: 30px;
+}
+.item p{
+    color: #545454;
+    text-align: center;
+    font-family: "Noto Sans Georgian", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 115%;
+    letter-spacing: 1.2px;
+}
+.four h2{
+    width: 308px;
+    color: #545454;
+    text-align: center;
+    font-family: "Noto Sans Georgian", sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 2.1px;
+}
+.five{
+    /*height: 462px;*/
+    background:#F6F6F6;
+}
+.five-wrap{
+    padding: 80px 182px 100px 183px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.five-wrap h2{
+    color:#545454;
+    font-family: "Noto Sans Georgian", sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 2.1px;
+}
+.name-account{
+    width: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+.name-account p:nth-of-type(1){
+    color: #545454;
+    font-family: "Noto Sans Georgian", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 110%;
+    letter-spacing: 0.9px;
+}
+.name-account p:nth-of-type(2){
+    color: #B2B2B2;
+    font-family: 'Arial', sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 18px;
+}
+.account{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    border-radius: 9px;
+    background:  #F1CDB3;
+}
+.account span{
+    color:#545454;
+    font-family: "Noto Sans Georgian", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%;
+    letter-spacing: 1.2px;
+}
+
+footer{
+    background-image: url("img/footer-gradient-background.png");
+    background-size: cover;
+}
+.six-wrap{
+    padding: 40px 40px 0 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 160px;
+}
+footer address{
+    width: 278px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+footer address  h3{
+    color: #FFF;
+    font-family: "Noto Sans Georgian", sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 2.1px;
+
+}
+footer address a,span{
+    color: #F1CDB3;
+    font-family: "Noto Sans Georgian", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 115%;
+    letter-spacing: 1.2px;
+    text-decoration: none;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.add{
+    gap: 30px;
+}
+.add span{
+    width: 290px;
+}

@@ -1,0 +1,164 @@
+@media screen and (min-width:320px) and (max-width: 767px){
+    header>ul{
+        display: none;
+    }
+    .first{
+        height: 823px;
+    }
+    header{
+        justify-content: flex-start;
+        align-items: center;
+        padding: 30px 0 0 10px;
+
+    }
+    .logo{
+        margin-left: 10px;
+    }
+    .first-main{
+        justify-content: flex-end;
+        align-items: center;
+        flex-direction: column;
+        gap: 105px;
+
+    }
+    .content{
+        width: 300px;
+        align-items:center;
+        gap: 42px;
+        margin-top: 0;
+
+    }
+    .content h2{
+        width: 300px;
+        font-size: 25px;
+        text-align: center;
+    }
+    .content p{
+        width: 300px;
+        text-align: center;
+    }
+    .first-main img{
+        width: 260px;
+        height: 271px;
+        flex-shrink: 0;
+    }
+    .second-wrap{
+        flex-direction: column-reverse;
+        gap:42px ;
+        padding: 42px 15px 42px 15px;
+
+    }
+    .second-content{
+        align-items: center;
+        gap:22px ;
+
+    }
+    .second-content h3{
+        width: 300px;
+        font-size: 25px;
+        text-align: center;
+        /*margin-top: 80px;*/
+    }
+    .second-content p:nth-of-type(1){
+        width: 270px;
+    }
+    .second-content p:nth-of-type(2){
+        width: 270px;
+    }
+    .second-wrap img{
+        width: 260px;
+        height: 353px;
+    }
+    .third-wrap{
+        padding: 42px 15px 42px 15px;
+        gap: 42px;
+    }
+    .card:nth-of-type(2){
+        display: none;
+    }
+    .card:nth-of-type(3){
+        display: none;
+
+    }
+    .third .container h2{
+        width: 300px;
+        font-size: 25px;
+    }
+    .card{
+        margin-bottom: 30px;
+    }
+    .four-wrap{
+        padding: 42px 15px 42px 15px;
+        gap: 42px;
+
+    }
+    .four-wrap h2{
+        width: 250px;
+        font-size: 25px;
+
+    }
+
+    .four-item{
+        width: 290px;
+        justify-content: space-between;
+        align-items: center;
+        gap: 35px;
+    }
+    .item{
+        width: 120px;
+        gap: 20px;
+
+    }
+    .item p{
+        font-size: 14px;
+    }
+    .five-wrap{
+        padding: 42px 15px 42px 15px;
+        flex-direction: column-reverse;
+        gap: 42px;
+    }
+    .five-wrap h2{
+        font-size: 25px;
+        text-align: center;
+        width: 280px;
+    }
+    .name-account{
+        width: 280px;
+
+    }
+    .account span{
+        font-size: 15px;
+    }
+    .name-account p:nth-of-type(2){
+        text-align: justify;
+        width: 280px;
+    }
+    .name-account p:nth-of-type(1){
+        width: 280px;
+    }
+    .five-wrap img{
+        width: 260px;
+        height: 135px;
+    }
+    footer address{
+        width: 300px;
+    }
+    .six-wrap{
+        padding: 30px 15px 0 15px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 40px;
+    }
+    footer address{
+        margin-bottom: 0;
+    }
+    footer address  h3{
+        font-size: 25px;
+        text-align: center;
+    }
+    .contact{
+        gap:18px;
+    }
+
+}
