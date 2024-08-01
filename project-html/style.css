@@ -42,7 +42,7 @@ header>ul>li>a:hover{
 }
 .logo p:nth-of-type(1){
     color:#F1CDB3;
-    font-family: "Noto Sans Georgian", sans-serif;
+    font-family: "Georgia", serif;
     font-size: 32px;
     font-weight: 400;
     line-height: 110%;
@@ -88,7 +88,7 @@ header>ul>li>a:hover{
     border-radius: 100px;
     background: #F1CDB3;
     color:#292929;
-    font-family: "Noto Sans Georgian", sans-serif;
+    font-family: "Georgia", serif;
     font-size: 17px;
     font-weight: 400;
     line-height: 130%;
@@ -98,7 +98,7 @@ header>ul>li>a:hover{
 .content h2{
     width: 350px;
     color: #FFF;
-    font-family: "Noto Sans Georgian", sans-serif;
+    font-family: "Georgia", serif;
     font-size: 44px;
     font-weight: 400;
     line-height: 130%;
@@ -133,8 +133,9 @@ header>ul>li>a:hover{
 
 }
 .second-content h3{
+    width: 370px;
     color: #545454;
-    font-family: "Noto Sans Georgian", sans-serif;
+    font-family: "Georgia", serif;
     font-size: 35px;
     font-weight: 400;
     line-height: 130%;
@@ -174,7 +175,7 @@ header>ul>li>a:hover{
     width: 400px;
     text-align: center;
     color: #545454;
-    font-family: "Noto Sans Georgian", sans-serif;
+    font-family: "Georgia", serif;
     font-size: 35px;
     font-weight: 400;
     line-height: 130%;
@@ -209,7 +210,7 @@ header>ul>li>a:hover{
 .card p{
     color: #545454;
     text-align: center;
-    font-family: "Noto Sans Georgian", sans-serif;
+    font-family: "Georgia", serif;
     font-size: 20px;
     font-weight: 400;
     letter-spacing: 1.2px;
@@ -228,7 +229,7 @@ header>ul>li>a:hover{
     border-radius: 100px;
     background:  #F1CDB3;
     color: #292929;
-    font-family: "Noto Sans Georgian", sans-serif;
+    font-family: "Georgia", serif;
     font-size: 17px;
     font-weight: 400;
     line-height: 130%;
@@ -267,17 +268,17 @@ header>ul>li>a:hover{
 .item p{
     color: #545454;
     text-align: center;
-    font-family: "Noto Sans Georgian", sans-serif;
+    font-family: "Georgia", serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 115%;
     letter-spacing: 1.2px;
 }
 .four h2{
-    width: 308px;
+    width: 400px;
     color: #545454;
     text-align: center;
-    font-family: "Noto Sans Georgian", sans-serif;
+    font-family: "Georgia", serif;
     font-size: 35px;
     font-weight: 400;
     line-height: 130%;
@@ -295,8 +296,9 @@ header>ul>li>a:hover{
     gap: 30px;
 }
 .five-wrap h2{
+    width: 300px;
     color:#545454;
-    font-family: "Noto Sans Georgian", sans-serif;
+    font-family: "Georgia", serif;
     font-size: 35px;
     font-style: normal;
     font-weight: 400;
@@ -313,7 +315,7 @@ header>ul>li>a:hover{
 }
 .name-account p:nth-of-type(1){
     color: #545454;
-    font-family: "Noto Sans Georgian", sans-serif;
+    font-family: "Georgia", serif;
     font-size: 13px;
     font-weight: 400;
     line-height: 110%;
@@ -337,7 +339,7 @@ header>ul>li>a:hover{
 }
 .account span{
     color:#545454;
-    font-family: "Noto Sans Georgian", sans-serif;
+    font-family: "Georgia", serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -367,7 +369,7 @@ footer address{
 }
 footer address  h3{
     color: #FFF;
-    font-family: "Noto Sans Georgian", sans-serif;
+    font-family: "Georgia", serif;
     font-size: 35px;
     font-style: normal;
     font-weight: 400;
@@ -377,7 +379,7 @@ footer address  h3{
 }
 footer address a,span{
     color: #F1CDB3;
-    font-family: "Noto Sans Georgian", sans-serif;
+    font-family: "Georgia", serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 115%;
